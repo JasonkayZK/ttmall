@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>ttmall-parent</artifactId>
+        <groupId>top.jasonkayzk</groupId>
+        <version>1.0.0-RELEASE</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>ttmall-manager</artifactId>
+    <version>1.0.0-RELEASE</version>
+    <modules>
+        <module>ttmall-entity</module>
+        <module>ttmall-mapper</module>
+        <module>ttmall-service</module>
+        <module>ttmall-web</module>
+    </modules>
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>top.jasonkayzk</groupId>
+            <artifactId>ttmall-common</artifactId>
+            <version>1.0.0-RELEASE</version>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>com.spotify</groupId>
+                <artifactId>docker-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <imageName>ttmall-manager</imageName>
+                    <baseImage>tomcat:9.0.30-jdk11</baseImage>
+                    <maintainer>Jasonkay 271226192@qq.com</maintainer>
+                    <resources>
+                        <resource>
+                            <targetPath>/usr/local/tomcat/webapps</targetPath>
+                            <directory>${project.build.directory}</directory>
+                            <include>*.war</include>
+                        </resource>
+                    </resources>
+                    <runs>
+                        <run>mv /usr/local/tomcat/webapps/${project.build.finalName}.war /usr/local/tomcat/webapps/ROOT.war</run>
+                    </runs>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

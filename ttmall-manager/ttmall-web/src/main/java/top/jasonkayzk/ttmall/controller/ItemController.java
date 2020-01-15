@@ -38,13 +38,13 @@ public class ItemController {
         return itemService.getItemList(page, rows);
     }
 
-    @RequestMapping("/item/{itemId}")
+    @RequestMapping("/{itemId}")
     @ResponseBody
     public TbItem getItemById(@PathVariable Long itemId) {
         return itemService.getItemById(itemId);
     }
 
-    @RequestMapping(value="/item/save", method= RequestMethod.POST)
+    @RequestMapping(value="/save", method= RequestMethod.POST)
     @ResponseBody
     private TTMallCommonResult createItem(TbItem item, String desc, String itemParams) throws Exception {
         return itemService.createItem(item, desc, itemParams);

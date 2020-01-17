@@ -1,4 +1,7 @@
 # Created by .ignore support plugin (hsz.mobi)
+# 忽略/docker/redis-cluster/目录下的数据文件
+/docker/redis-cluster/*/data/
+
 ### Gradle template
 .gradle
 /build/

@@ -1,0 +1,101 @@
+version: '3.7'
+
+x-image:
+  &default-image
+    redis:5.0.7
+
+networks:
+  redis-cluster-net:
+    external:
+      name: redis-cluster-net
+
+services:
+  redis-master-1:
+    image: *default-image
+    container_name: redis-master-1
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.11
+    volumes:
+      - ./redis-7001.conf:/home/redis/cluster/redis.conf
+      - ./7001/data:/data
+    ports:
+      - 7001:7001
+      - 17001:17001
+
+  redis-master-2:
+    image: *default-image
+    container_name: redis-master-2
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.12
+    volumes:
+      - ./redis-7002.conf:/home/redis/cluster/redis.conf
+      - ./7002/data:/data
+    ports:
+      - 7002:7002
+      - 17002:17002
+
+  redis-master-3:
+    image: *default-image
+    container_name: redis-master-3
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.13
+    volumes:
+      - ./redis-7003.conf:/home/redis/cluster/redis.conf
+      - ./7003/data:/data
+    ports:
+      - 7003:7003
+      - 17003:17003
+
+  redis-salve-1:
+    image: *default-image
+    container_name: redis-salve-1
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.14
+    volumes:
+      - ./redis-7004.conf:/home/redis/cluster/redis.conf
+      - ./7004/data:/data
+    ports:
+      - 7004:7004
+      - 17004:17004
+
+  redis-salve-2:
+    image: *default-image
+    container_name: redis-salve-2
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.15
+    volumes:
+      - ./redis-7005.conf:/home/redis/cluster/redis.conf
+      - ./7005/data:/data
+    ports:
+      - 7005:7005
+      - 17005:17005
+
+  redis-salve-3:
+    image: *default-image
+    container_name: redis-salve-3
+    command:
+      ["redis-server", "/home/redis/cluster/redis.conf"]
+    networks:
+      redis-cluster-net:
+        ipv4_address: 192.168.200.16
+    volumes:
+      - ./redis-7006.conf:/home/redis/cluster/redis.conf
+      - ./7006/data:/data
+    ports:
+      - 7006:7006
+      - 17006:17006

@@ -33,4 +33,13 @@ public interface ContentCategoryService {
      */
     TTMallCommonResult insertContentCategory(long parentId, String name);
 
+    /**
+     * 删除一个节点
+     *
+     * @param id 节点Id
+     *
+     * @return 处理响应
+     */
+    TTMallCommonResult deleteContentCategory(long id);
+
 }

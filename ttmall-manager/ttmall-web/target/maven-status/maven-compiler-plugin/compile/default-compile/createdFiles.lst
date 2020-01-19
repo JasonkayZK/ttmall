@@ -1,6 +1,8 @@
 top/jasonkayzk/ttmall/controller/PageController.class
 top/jasonkayzk/ttmall/controller/ItemController.class
+top/jasonkayzk/ttmall/controller/ContentCategoryController.class
 top/jasonkayzk/ttmall/controller/ItemCatController.class
 top/jasonkayzk/ttmall/controller/ItemParamItemController.class
+top/jasonkayzk/ttmall/controller/ContentController.class
 top/jasonkayzk/ttmall/controller/PictureController.class
 top/jasonkayzk/ttmall/controller/ItemParamController.class

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.058" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.001" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10-LTS"/>
@@ -19,7 +19,7 @@
     <property name="java.runtime.version" value="11.0.5+10-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
-    <property name="visualvm.id" value="10437234879556"/>
+    <property name="visualvm.id" value="2781940729965"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
@@ -35,7 +35,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="maven.repo.local" value="/home/zk/.m2/repository"/>
-    <property name="os.version" value="5.0.0-37-generic"/>
+    <property name="os.version" value="5.3.0-26-generic"/>
     <property name="idea.version2019.3.1" value="true"/>
     <property name="user.home" value="/home/zk"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
@@ -65,6 +65,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="top.jasonkayzk.ttmall.util.FTPTest" name="testFtpUtil" time="0.05"/>
-  <testcase classname="top.jasonkayzk.ttmall.util.FTPTest" name="testFtpClient" time="0.008"/>
+  <testcase classname="top.jasonkayzk.ttmall.util.FTPTest" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.001">
+    <skipped/>
+  </testcase>
 </testsuite>

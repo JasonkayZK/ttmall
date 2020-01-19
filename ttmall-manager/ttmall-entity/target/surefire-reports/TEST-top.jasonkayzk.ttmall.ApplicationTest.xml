@@ -4,7 +4,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10-LTS"/>
     <property name="sun.boot.library.path" value="/opt/jdk-11.0.5/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/zk/workspace/ttmall/ttmall-manager/ttmall-entity"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/zk/workspace/ttmall/ttmall-manager"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,18 +14,16 @@
     <property name="user.country" value="CN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/zk/workspace/ttmall/ttmall-manager/ttmall-entity"/>
+    <property name="user.dir" value="/home/zk/workspace/ttmall/ttmall-manager"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="11.0.5+10-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
-    <property name="visualvm.id" value="9856658840253"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="maven.ext.class.path" value="/opt/idea-IU-193.5662.53/plugins/maven/lib/maven-event-listener.jar"/>
     <property name="classworlds.conf" value="/opt/apache-maven-3.6.3/bin/m2.conf"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
@@ -34,19 +32,18 @@
     <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="maven.repo.local" value="/home/zk/.m2/repository"/>
-    <property name="os.version" value="5.0.0-37-generic"/>
-    <property name="idea.version2019.3.1" value="true"/>
+    <property name="os.version" value="5.3.0-26-generic"/>
+    <property name="library.jansi.path" value="/opt/apache-maven-3.6.3/lib/jansi-native"/>
     <property name="user.home" value="/home/zk"/>
     <property name="user.timezone" value="Asia/Shanghai"/>
     <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="user.name" value="zk"/>
-    <property name="java.class.path" value="/opt/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar:/opt/apache-maven-3.6.3/boot/plexus-classworlds.license"/>
+    <property name="java.class.path" value="/opt/apache-maven-3.6.3/boot/plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version2019.3.1 -s /home/zk/.m2/settings.xml -Dmaven.repo.local=/home/zk/.m2/repository clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
     <property name="java.home" value="/opt/jdk-11.0.5"/>
     <property name="user.language" value="zh"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>

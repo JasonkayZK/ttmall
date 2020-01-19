@@ -12,6 +12,8 @@
     <modules>
         <module>ttmall-common</module>
         <module>ttmall-manager</module>
+        <module>ttmall-rest</module>
+        <module>ttmall-portal</module>
     </modules>
 
     <properties>

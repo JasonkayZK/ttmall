@@ -4,5 +4,6 @@
 /home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/utils/JsonUtils.java
 /home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/pojo/TTMallCommonResult.java
 /home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/pojo/EUTreeNode.java
+/home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/utils/CookieUtils.java
 /home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/utils/ExceptionUtil.java
 /home/zk/workspace/ttmall/ttmall-common/src/main/java/top/jasonkayzk/ttmall/common/utils/IDUtils.java

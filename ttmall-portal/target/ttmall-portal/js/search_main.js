@@ -1286,7 +1286,7 @@ SEARCH.page = function(b, a) {
     if (b < 1) {
         b = 1
     }
-    window.location = "http://www.taotao.com/search.html?q="+SEARCH.query+"&page="+b;
+    window.location = "http://127.0.0.1:8082/search.html?q="+SEARCH.query+"&page="+b;
 //    if (a) {
 //        window.scrollTo(0, $("#filter").offset().top)
 //    }

@@ -1,11 +1,12 @@
 # Created by .ignore support plugin (hsz.mobi)
 # 忽略/docker/redis-cluster/目录下的数据文件
 /docker/redis-cluster/*/data/
+!/docker/solr/ik-analyzer-8.3.0.jar
 
 ### Gradle template
 .gradle
 /build/
-/target
+/target/
 
 # Ignore Gradle GUI config
 gradle-app.setting
@@ -134,11 +135,6 @@ hs_err_pid*
 ### Example user template template
 ### Example user template
 
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
 ### Eclipse template
 .metadata
 bin/

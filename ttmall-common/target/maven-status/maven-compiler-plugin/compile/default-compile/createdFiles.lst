@@ -3,6 +3,7 @@ top/jasonkayzk/ttmall/common/utils/IDUtils.class
 top/jasonkayzk/ttmall/common/pojo/EUDataGridResult.class
 top/jasonkayzk/ttmall/common/pojo/TTMallCommonResult.class
 top/jasonkayzk/ttmall/common/utils/ExceptionUtil.class
+top/jasonkayzk/ttmall/common/utils/CookieUtils.class
 top/jasonkayzk/ttmall/common/pojo/EUTreeNode.class
 top/jasonkayzk/ttmall/common/utils/JsonUtils.class
 top/jasonkayzk/ttmall/common/utils/FtpUtil.class

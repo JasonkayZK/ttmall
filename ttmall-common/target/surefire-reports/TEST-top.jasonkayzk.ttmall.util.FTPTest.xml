@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.001" errors="0" skipped="1">
+<testsuite tests="1" failures="0" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.002" errors="0" skipped="1">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.5+10-LTS"/>
@@ -19,7 +19,7 @@
     <property name="java.runtime.version" value="11.0.5+10-LTS"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
-    <property name="visualvm.id" value="2781940729965"/>
+    <property name="visualvm.id" value="43570275487814"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
@@ -65,7 +65,7 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="top.jasonkayzk.ttmall.util.FTPTest" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.001">
+  <testcase classname="top.jasonkayzk.ttmall.util.FTPTest" name="top.jasonkayzk.ttmall.util.FTPTest" time="0.002">
     <skipped/>
   </testcase>
 </testsuite>
